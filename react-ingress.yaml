@@ -4,7 +4,7 @@ metadata:
   name: react
   namespace: react
   annotations:
-    nginx.ingress.kubernetes.io/rewrite-target: /$2
+  
     ingress.kubernetes.io/proxy-body-size: 100M
     ingress.kubernetes.io/app-root: "/"
 spec:
