@@ -13,7 +13,7 @@ spec:
   - host: grad.arieldevops.tech
     http:
       paths:
-      - path: /react(/|$)(.*)
+      - path: /
         pathType: Prefix
         backend:
           service:
