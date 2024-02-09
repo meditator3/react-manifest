@@ -9,9 +9,6 @@ metadata:
     ingress.kubernetes.io/app-root: "/"
 spec:
   ingressClassName: nginx
-  tls:
-  - hosts:
-    - grad.arieldevops.tech
   rules:
   - host: grad.arieldevops.tech
     http:
