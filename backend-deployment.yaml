@@ -29,8 +29,6 @@ spec:
           name: backend
           ports:
             - containerPort: 8080
-              hostPort: 80
-              protocol: TCP
       restartPolicy: Always
 
 
